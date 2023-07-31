@@ -29,3 +29,8 @@ validation on that and selecting
 (havenot understood this properly)
 
 
+chi-Square feature selection-
+we have to see pattern between feature col. and target, we can do this by crosstab and see
+chi square test essentially works on cat. data
+
+
