@@ -34,3 +34,15 @@ we have to see pattern between feature col. and target, we can do this by crosst
 chi square test essentially works on cat. data
 
 
+
+
+More Information Available at http://rasbt.github.io/mixtend/
+How it works
+Sequential feature selection algorithms are a family of greedy search algorithms that are used to reduce an initial d-dimensional feature space to a k-dimensional feature subspace where k < d.
+In a nutshell. SFAs remove or add one feature at the time based on the classifier performance until a feature subset of the desired size k is reached. There are 4 different flavors of SFAs available via the Sequential eatureSelector:
+* ﻿﻿Sequential Forward Selection (SFS)
+* ﻿﻿Sequential Backward Selection (SBS)
+* ﻿﻿Sequential Forward Floating Selection (SFFS)
+* ﻿﻿Sequential Backward Floating Selection (SBFS)
+
+
