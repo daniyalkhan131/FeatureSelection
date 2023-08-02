@@ -68,3 +68,10 @@ In a nutshell. SFAs remove or add one feature at the time based on the classifie
 * ﻿﻿Sequential Backward Floating Selection (SBFS)
 
 
+feature selection with correlation-
+
+if an independent feature highly correlated with dependent feature then we need to keep
+that, because that feature can play imp role in ML model training.
+but if independent features are highly correlated with each other like 90% then we keep
+only one of them.
+
