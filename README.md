@@ -75,3 +75,21 @@ that, because that feature can play imp role in ML model training.
 but if independent features are highly correlated with each other like 90% then we keep
 only one of them.
 
+feature importance using randomForest-
+this makes model more interpretable like why this decision taken so we can see what
+features are more imp on that basis decision might taken.
+
+
+feature selection advise-
+1-remove features with high percent of missing values,
+because they are difficult to learn from
+2-drop features that have low variance
+3-drop one feature of them if two features are highly correlated
+4-if a feature has very low correlation with target then simply delet that, because it is
+not useful for the model
+5-do forward/backward/stepwise selection
+6-LASSO- least absolute shrinkage and selection opertor (it is regularization)
+7-feature importance by tree based method
+
+check things which is woring for you and which is not, we do things by trying different
+things
