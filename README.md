@@ -35,6 +35,28 @@ chi square test essentially works on cat. data
 
 
 
+Wrapper methods-
+Step Forward, Step Backward and Exhaustive Feature Selection are there in this
+
+it is computationally very expensive
+for higher number of features not recommended
+wrapper methods are based on greedy search algo.
+in this we include ML algos while selecting features
+
+forward selection-
+in this we select one feature at a time for all combinations and train models for
+that and moodel that gives best result will be selected then with selected feature
+we combine with one more feature one by one and traon models and compare them
+and select those which give best result and so on...
+
+backward selection-
+in this we do same as forward selection but go in opposite direction, means start from
+having all feature and remove one at a time and compare model then 2 at a time then 
+compare...so on...
+
+subset selection or exhaustive feature selection-
+it tries all possible combinations and select best one
+2^n-1 combinations try for n features
 
 More Information Available at http://rasbt.github.io/mixtend/
 How it works
